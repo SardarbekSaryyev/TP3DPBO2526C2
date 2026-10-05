@@ -10,9 +10,7 @@ Saya Sardarbek Saryyev dengan NIM 2521823 mengerjakan Tugas Praktikum 3 dalam ma
 Sistem Manajemen Rumah Sakit sederhana: rumah sakit punya beberapa departemen, setiap departemen berisi dokter, perawat, dan pasien.
 
 ## Desain Diagram
-![diagram](https://github.com/user-attachments/assets/3b64852f-70c0-4942-b5b2-e40474d34635)
-
-
+diagram.png 
 ## Atribut dan Method
 
 - **Person (abstract):** atribut `name`, `age`. Method abstrak `role()` dan `detail()`, serta `display()` untuk mencetak satu baris data.
