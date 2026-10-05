@@ -25,7 +25,7 @@ Sistem Manajemen Rumah Sakit sederhana: rumah sakit punya beberapa departemen, s
 
 - **Hierarchical Inheritance:** `Doctor`, `Nurse`, dan `Patient` sama-sama mewarisi `Person`. Atribut umum dan `display()` ditulis sekali di `Person`. Polimorfisme lewat `role()` dan `detail()` membuat tiap subkelas mencetak keterangan yang berbeda.
 - **Composition:** `Hospital` memiliki `Department`, dan `Department` memiliki `Doctor`, `Nurse`, `Patient`. Objek anak disimpan langsung di dalam induknya sehingga ikut hilang bersama induknya.
-- **Array of Object:** koleksi memakai `vector` (C++), `list` (Python), dan `ArrayList` (Java).
+- **Array of Object:** koleksi memakai `vector` (C++), `list` (Python)
 
 ## Alur Program
 
@@ -41,8 +41,6 @@ Ketiga bahasa menghasilkan keluaran yang sama.
 ```bash
 cd CPP/Program && g++ -std=c++17 main.cpp -o main && ./main
 cd Python/Program && python3 main.py
-cd Java/Program && javac Main.java && java Main
-```
 
 ## Dokumentasi
 
